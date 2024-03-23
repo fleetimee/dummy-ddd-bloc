@@ -1,16 +1,24 @@
-# ddd_flutter_boilerplate
+step : 
+buat structure
+- constant -> menampung http dll
 
-A new Flutter project.
+- data_state.dart
 
-## Getting Started
+- entities -> response or request 
 
-This project is a starting point for a Flutter application.
+- article_repository.dart -> abstract class
 
-A few resources to get you started if this is your first Flutter project:
+- article_model.dart -> generate from json you can using quicktype.io
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- article_repository_implementation -> 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- news_api_service -> method using POST GET UPDATE DELETE
+
+```
+flutter pub run build_runner build
+```
+
+- core/usecase.dart
+
+- feature/usecase/get_article.dart
+    - based name 
