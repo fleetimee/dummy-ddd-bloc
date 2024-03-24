@@ -1,3 +1,9 @@
+
+
+
+![Untitled Diagram drawio](https://github.com/octavvia/dummy-ddd-bloc/assets/86775678/497af21a-2a6d-49e0-b172-4969089218fb)
+
+
 step : 
 buat structure
 - constant -> menampung http dll
